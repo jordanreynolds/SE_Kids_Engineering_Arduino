@@ -58,16 +58,16 @@ void newGame() {
   // Set game sequence length based on skill level
   switch (skillLevel) {
     case 1:
-      sequenceLength = 8;
+      sequenceLength = 5;
       break;
     case 2:
-      sequenceLength = 14;
+      sequenceLength = 10;
       break;
     case 3:
-      sequenceLength = 20;
+      sequenceLength = 15;
       break;
     case 4:
-      sequenceLength = 31;
+      sequenceLength = 20;
       break;
   }
 
